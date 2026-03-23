@@ -1,0 +1,32 @@
+.section-title {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 48px;
+	font-weight: 500;
+	font-size: 32px;
+	color: var(--color-white);
+}
+.section-title::before {
+	content: '#';
+	color: var(--color-primary);
+}
+.section-title::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-left: 16px;
+	width: 25vh;
+	height: 1px;
+	background-color: var(--color-primary);
+}
+
+@media (max-width: 600px) {
+	.section-title {
+		margin-bottom: 24px;
+		font-size: 28px;
+	}
+	.section-title::after {
+		width: 10vh;
+	}
+}

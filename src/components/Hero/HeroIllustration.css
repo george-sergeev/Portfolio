@@ -1,0 +1,20 @@
+.hero-illustration {
+	position: relative;
+}
+.hero-illustration__dots {
+	position: absolute;
+	top: 64%;
+	right: 0;
+	z-index: 3;
+}
+.hero-illustration__figure {
+	position: absolute;
+	top: 22%;
+	left: 0;
+	z-index: 1;
+}
+.hero-illustration__image {
+	position: relative;
+	border-bottom: 1px solid var(--color-primary);
+	z-index: 2;
+}

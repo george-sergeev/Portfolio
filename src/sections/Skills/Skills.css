@@ -1,0 +1,27 @@
+.skills__inner {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.skills__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+@media (max-width: 900px) {
+	.skills__list {
+		grid-template-columns: repeat(3, 1fr);
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.skills__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

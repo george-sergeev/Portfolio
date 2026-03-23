@@ -1,0 +1,12 @@
+.skills-illustration {
+	display: block;
+	max-width: 349px;
+	height: 282px;
+	flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+	.skills-illustration {
+		display: none;
+	}
+}

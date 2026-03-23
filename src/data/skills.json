@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Языки",
+		"items": ["JavaScript", "TypeScript"]
+	},
+
+	{
+		"name": "Фреймворки",
+		"items": ["React"]
+	},
+
+	{
+		"name": "Инструменты",
+		"items": ["VSCode", "Figma", "Git", "GitHub"]
+	},
+
+	{
+		"name": "Другое",
+		"items": ["HTML", "CSS", "SCSS", "REST"]
+	}
+]

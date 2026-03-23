@@ -1,0 +1,7 @@
+.header-logo__icon {
+	color: var(--color-primary);
+	transition: color 0.3s ease;
+}
+.header-logo__icon:hover {
+	color: var(--color-white);
+}

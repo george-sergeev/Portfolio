@@ -1,0 +1,19 @@
+.skill-block {
+	max-width: 200px;
+	border: 1px solid var(--color-gray);
+	text-align: center;
+}
+
+.skill-block__title {
+	padding: 8px;
+	font-weight: 600;
+	color: var(--color-white);
+	border-bottom: 1px solid var(--color-gray);
+}
+
+.skill-block__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 8px;
+}

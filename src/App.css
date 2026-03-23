@@ -1,0 +1,15 @@
+.app-main {
+	display: flex;
+	flex-direction: column;
+	gap: 110px;
+	max-width: 1025px;
+	margin: 0 auto;
+	padding: 100px 10px;
+	background-color: var(--color-background-second);
+}
+
+@media (max-width: 900px) {
+	.app-main {
+		padding: 80px 20px;
+	}
+}
